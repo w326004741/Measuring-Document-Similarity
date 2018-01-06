@@ -39,6 +39,7 @@ cd your folder(Measuring-Document-Similarity)
 #### Right Click jaccard-server project --> Run As --> Run on Server ####
 
 ## About Project
+[Project Document](https://github.com/w326004741/Measuring-Document-Similarity/wiki/Project-Introduction)
 
 - First of all, after the project is started, the first upload file to access `UploadFileServlet` will load initialization class `DB4Oinit`. The constructor of this class will load the local sample document `test.txt` from the `ReadFile1 ()` function in the calling tool `KShingle` and save it to the `DB4O` database. The `DB4O` database locally creates a data document named `document.yap` in which all document objects are stored.
 
