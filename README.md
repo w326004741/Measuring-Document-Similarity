@@ -71,3 +71,6 @@ cd your folder(Measuring-Document-Similarity)
 ![image](https://github.com/w326004741/Measuring-Document-Similarity/blob/master/image/2001515177538_.pic.jpg)
 
 ![image](https://github.com/w326004741/Measuring-Document-Similarity/blob/master/image/2041515177790_.pic_hd.jpg)
+
+#### Project UML:
+![image](https://github.com/w326004741/Measuring-Document-Similarity/blob/master/image/2131515235352_.pic_hd.jpg)
