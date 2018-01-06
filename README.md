@@ -10,7 +10,7 @@
 
 [Project Detail](https://github.com/w326004741/Measuring-Document-Similarity/blob/master/oodppAssignment2017.pdf)
 
-![image](https://github.com/w326004741/Measuring-Document-Similarity/blob/master/image/2201515242990_.pic.jpg)
+![image](https://github.com/w326004741/Measuring-Document-Similarity/blob/master/image/Architecture.png)
 
 ## How to use this repository:
 1. Click Clone or download and Copy to clipboard
