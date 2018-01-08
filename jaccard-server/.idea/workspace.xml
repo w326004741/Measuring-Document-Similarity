@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e7af8a2-9151-473c-8299-26c19a84c525" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JAVA/ie.gmit.sw.DB4Oinit" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw.DB4Oinit">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.DB4Oinit</OriginalElement>
+              <nodes>
+                <node x="125.0" y="80.0">ie.gmit.sw.Test</node>
+                <node x="222.0" y="80.0">ie.gmit.sw.MinHash</node>
+                <node x="0.0" y="80.0">ie.gmit.sw.DB4Oinit</node>
+                <node x="111.5" y="0.0">ie.gmit.sw.KShingle</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ie.gmit.sw.DB4Oinit" target="ie.gmit.sw.KShingle">
+                  <point x="0.0" y="-15.0" />
+                  <point x="52.5" y="55.0" />
+                  <point x="128.83333333333334" y="55.0" />
+                  <point x="-34.66666666666666" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.MinHash" target="ie.gmit.sw.KShingle">
+                  <point x="0.0" y="-15.0" />
+                  <point x="274.0" y="55.0" />
+                  <point x="198.16666666666666" y="55.0" />
+                  <point x="34.66666666666666" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.Test" target="ie.gmit.sw.KShingle">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-172.0" y="70.0" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.DB4Oinit</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw</OriginalElement>
+              <nodes>
+                <node x="565.5" y="200.0">ie.gmit.sw.service.DocumentService</node>
+                <node x="243.82107945817626" y="380.0">ie.gmit.sw.servlet.UploadFileServlet</node>
+                <node x="396.5" y="110.0">ie.gmit.sw.dao.DocumentDao</node>
+                <node x="329.5" y="0.0">ie.gmit.sw.model.Document</node>
+                <node x="10.5" y="200.0">ie.gmit.sw.Test</node>
+                <node x="107.5" y="200.0">ie.gmit.sw.DB4Oinit</node>
+                <node x="232.5" y="200.0">ie.gmit.sw.MinHash</node>
+                <node x="235.69826141600345" y="110.0">ie.gmit.sw.KShingle</node>
+                <node x="357.5" y="200.0">ie.gmit.sw.dao.impl</node>
+                <node x="436.426180002793" y="290.0">ie.gmit.sw.service.impl</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ie.gmit.sw.Test" target="ie.gmit.sw.model.Document">
+                  <point x="0.0" y="-15.0" />
+                  <point x="49.0" y="180.0" />
+                  <point x="41.66666666666663" y="180.0" />
+                  <point x="41.66666666666663" y="70.0" />
+                  <point x="355.1818181818182" y="70.0" />
+                  <point x="-30.818181818181813" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.dao.impl">
+                  <point x="-16.285714285714334" y="-15.0" />
+                  <point x="477.14046571707865" y="250.0" />
+                  <point x="414.5" y="250.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.dao.DocumentDao" target="ie.gmit.sw.model.Document">
+                  <point x="0.0" y="-15.0" />
+                  <point x="465.0" y="90.0" />
+                  <point x="396.27272727272725" y="90.0" />
+                  <point x="10.272727272727252" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.DB4Oinit" target="ie.gmit.sw.KShingle">
+                  <point x="35.0" y="-15.0" />
+                  <point x="195.0" y="180.0" />
+                  <point x="274.69826141600345" y="180.0" />
+                  <point x="-13.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.model.Document">
+                  <point x="32.571428571428555" y="-15.0" />
+                  <point x="525.9976085742215" y="260.0" />
+                  <point x="555.0" y="260.0" />
+                  <point x="555.0" y="70.0" />
+                  <point x="416.81818181818187" y="70.0" />
+                  <point x="30.81818181818187" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.dao.DocumentDao">
+                  <point x="0.0" y="-15.0" />
+                  <point x="493.426180002793" y="270.0" />
+                  <point x="499.25" y="270.0" />
+                  <point x="34.25" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.service.DocumentService">
+                  <point x="48.85714285714289" y="-15.0" />
+                  <point x="542.2833228599359" y="270.0" />
+                  <point x="604.75" y="270.0" />
+                  <point x="-39.25" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.DocumentService" target="ie.gmit.sw.model.Document">
+                  <point x="0.0" y="-15.0" />
+                  <point x="644.0" y="60.0" />
+                  <point x="427.0909090909091" y="60.0" />
+                  <point x="41.09090909090912" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.dao.impl" target="ie.gmit.sw.model.Document">
+                  <point x="-28.5" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.DB4Oinit" target="ie.gmit.sw.model.Document">
+                  <point x="0.0" y="-15.0" />
+                  <point x="160.0" y="160.0" />
+                  <point x="148.0" y="160.0" />
+                  <point x="148.0" y="90.0" />
+                  <point x="375.72727272727275" y="90.0" />
+                  <point x="-10.272727272727252" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.MinHash" target="ie.gmit.sw.KShingle">
+                  <point x="0.0" y="-15.0" />
+                  <point x="284.5" y="180.0" />
+                  <point x="300.69826141600345" y="180.0" />
+                  <point x="13.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.Test" target="ie.gmit.sw.KShingle">
+                  <point x="25.66666666666667" y="-15.0" />
+                  <point x="74.66666666666669" y="170.0" />
+                  <point x="248.69826141600345" y="170.0" />
+                  <point x="-39.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.dao.impl" target="ie.gmit.sw.dao.DocumentDao">
+                  <point x="28.5" y="-15.0" />
+                  <point x="443.0" y="180.0" />
+                  <point x="430.75" y="180.0" />
+                  <point x="-34.25" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.MinHash">
+                  <point x="-48.85714285714289" y="-15.0" />
+                  <point x="444.5690371456501" y="270.0" />
+                  <point x="284.5" y="270.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.service.DocumentService">
+                  <point x="39.0" y="-15.0" />
+                  <point x="360.82107945817626" y="350.0" />
+                  <point x="683.25" y="350.0" />
+                  <point x="39.25" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.DB4Oinit">
+                  <point x="-13.0" y="-15.0" />
+                  <point x="308.82107945817626" y="340.0" />
+                  <point x="165.32107945817626" y="340.0" />
+                  <point x="165.32107945817626" y="270.0" />
+                  <point x="186.25" y="270.0" />
+                  <point x="26.25" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.KShingle">
+                  <point x="-32.57142857142861" y="-15.0" />
+                  <point x="460.8547514313644" y="260.0" />
+                  <point x="347.0" y="260.0" />
+                  <point x="347.0" y="180.0" />
+                  <point x="326.69826141600345" y="180.0" />
+                  <point x="39.0" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.model.Document">
+                  <point x="-65.0" y="-15.0" />
+                  <point x="256.82107945817626" y="360.0" />
+                  <point x="0.0" y="360.0" />
+                  <point x="0.0" y="50.0" />
+                  <point x="334.6363636363636" y="50.0" />
+                  <point x="-51.363636363636374" y="15.0" />
+                </edge>
+                <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.service.impl">
+                  <point x="13.0" y="-15.0" />
+                  <point x="334.82107945817626" y="340.0" />
+                  <point x="493.426180002793" y="340.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="61.5" y="47.5" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.dao.impl</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw.service" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw.service">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.service</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">ie.gmit.sw.service.DocumentService</node>
+                <node x="21.5" y="80.0">ie.gmit.sw.service.impl</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.service.DocumentService">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-206.5" y="-25.0" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.service.impl</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw.service.impl.DocumentServiceImpl" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/ie.gmit.sw.service.impl.DocumentServiceImpl">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.service.impl.DocumentServiceImpl</OriginalElement>
+              <nodes>
+                <node x="12.5" y="0.0">ie.gmit.sw.service.DocumentService</node>
+                <node x="0.0" y="80.0">ie.gmit.sw.service.impl.DocumentServiceImpl</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ie.gmit.sw.service.impl.DocumentServiceImpl" target="ie.gmit.sw.service.DocumentService">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="132.5" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.service.DocumentService</node>
+                <node>ie.gmit.sw.service.impl.DocumentServiceImpl</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw.dao" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw.dao">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.dao</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">ie.gmit.sw.dao.DocumentDao</node>
+                <node x="11.5" y="80.0">ie.gmit.sw.dao.impl</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ie.gmit.sw.dao.impl" target="ie.gmit.sw.dao.DocumentDao">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-216.0" y="75.0" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.dao.impl</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw.dao.impl" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw.dao.impl">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.dao.impl</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-204.0" y="49.5" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw.dao.DocumentDao" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw.dao.DocumentDao">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.dao.DocumentDao</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">ie.gmit.sw.dao.DocumentDao</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-236.5" y="-142.5" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.dao.DocumentDao</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ie.gmit.sw.dao.impl.DocumentDaoImpl" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ie.gmit.sw.dao.impl.DocumentDaoImpl">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ie.gmit.sw.dao.impl.DocumentDaoImpl</OriginalElement>
+              <nodes>
+                <node x="0.0" y="80.0">ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+                <node x="12.5" y="0.0">ie.gmit.sw.dao.DocumentDao</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ie.gmit.sw.dao.impl.DocumentDaoImpl" target="ie.gmit.sw.dao.DocumentDao">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-224.0" y="-102.5" />
+              <SelectedNodes>
+                <node>ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+                <node>ie.gmit.sw.dao.DocumentDao</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Sequence" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaccard-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaccard-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e7af8a2-9151-473c-8299-26c19a84c525" name="Default" comment="" />
+      <created>1515231762333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515231762333</updated>
+      <workItem from="1515231767017" duration="198000" />
+      <workItem from="1515232000247" duration="821000" />
+      <workItem from="1515232942459" duration="2449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3468000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/dao/impl/DocumentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/dao/DocumentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-jaccard-server">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-jaccard-server</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-jaccard-server</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="89.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.servlet.UploadFileServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.servlet.UploadFileServlet</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.servlet.annotation.WebServlet</node>
+            <node x="" y="">ie.gmit.sw.servlet.UploadFileServlet</node>
+            <node x="" y="">javax.servlet.http.HttpServlet</node>
+            <node x="" y="">javax.servlet.GenericServlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="135.0" y="295.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.model.Document">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.model.Document</OriginalElement>
+          <nodes>
+            <node x="" y="">ie.gmit.sw.model.Document</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/weichenwang/Documents/jaccard-server/src/ie/gmit/sw/service;/Users/weichenwang/Documents/jaccard-server/src/ie/gmit/sw/service/impl;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/ie/gmit/sw/service;/Users/weichenwang/Documents/jaccard-server/src/ie/gmit/sw/service/impl;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="525.0" y="320.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.servlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.servlet</OriginalElement>
+          <nodes>
+            <node x="" y="">ie.gmit.sw.servlet.UploadFileServlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="78.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/weichenwang/Documents/jaccard-server/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="525.0" y="320.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Overview</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Flash/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Flash</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="525.0" y="320.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>PRIVATE</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="161.0" y="300.0">com</node>
+            <node x="198.0" y="150.0">META-INF</node>
+            <node x="0.0" y="150.0">xtea_db4o</node>
+            <node x="235.0" y="75.0">groovyjarjarasm</node>
+            <node x="0.0" y="225.0">groovy</node>
+            <node x="177.0" y="225.0">javax</node>
+            <node x="0.0" y="375.0">org</node>
+            <node x="0.0" y="300.0">EDU</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="155.0" y="375.0">ie</node>
+            <node x="0.0" y="75.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-74.0" y="122.5" />
+          <SelectedNodes>
+            <node>com</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/service/impl/DocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/MinHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/DB4Oinit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/KShingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.DB4Oinit">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.DB4Oinit</OriginalElement>
+          <nodes>
+            <node x="125.0" y="80.0">ie.gmit.sw.Test</node>
+            <node x="222.0" y="80.0">ie.gmit.sw.MinHash</node>
+            <node x="0.0" y="80.0">ie.gmit.sw.DB4Oinit</node>
+            <node x="111.5" y="0.0">ie.gmit.sw.KShingle</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ie.gmit.sw.DB4Oinit" target="ie.gmit.sw.KShingle">
+              <point x="0.0" y="-15.0" />
+              <point x="52.5" y="55.0" />
+              <point x="128.83333333333334" y="55.0" />
+              <point x="-34.66666666666666" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.MinHash" target="ie.gmit.sw.KShingle">
+              <point x="0.0" y="-15.0" />
+              <point x="274.0" y="55.0" />
+              <point x="198.16666666666666" y="55.0" />
+              <point x="34.66666666666666" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.Test" target="ie.gmit.sw.KShingle">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-172.0" y="70.0" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.DB4Oinit</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testUML.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.service</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">ie.gmit.sw.service.DocumentService</node>
+            <node x="21.5" y="80.0">ie.gmit.sw.service.impl</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.service.DocumentService">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-206.5" y="-25.0" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.service.impl</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/gmit/sw/model/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw</OriginalElement>
+          <nodes>
+            <node x="565.5" y="200.0">ie.gmit.sw.service.DocumentService</node>
+            <node x="243.82107945817626" y="380.0">ie.gmit.sw.servlet.UploadFileServlet</node>
+            <node x="396.5" y="110.0">ie.gmit.sw.dao.DocumentDao</node>
+            <node x="329.5" y="0.0">ie.gmit.sw.model.Document</node>
+            <node x="10.5" y="200.0">ie.gmit.sw.Test</node>
+            <node x="107.5" y="200.0">ie.gmit.sw.DB4Oinit</node>
+            <node x="232.5" y="200.0">ie.gmit.sw.MinHash</node>
+            <node x="235.69826141600345" y="110.0">ie.gmit.sw.KShingle</node>
+            <node x="357.5" y="200.0">ie.gmit.sw.dao.impl</node>
+            <node x="436.426180002793" y="290.0">ie.gmit.sw.service.impl</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ie.gmit.sw.Test" target="ie.gmit.sw.model.Document">
+              <point x="0.0" y="-15.0" />
+              <point x="49.0" y="180.0" />
+              <point x="41.66666666666663" y="180.0" />
+              <point x="41.66666666666663" y="70.0" />
+              <point x="355.1818181818182" y="70.0" />
+              <point x="-30.818181818181813" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.dao.impl">
+              <point x="-16.285714285714334" y="-15.0" />
+              <point x="477.14046571707865" y="250.0" />
+              <point x="414.5" y="250.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.dao.DocumentDao" target="ie.gmit.sw.model.Document">
+              <point x="0.0" y="-15.0" />
+              <point x="465.0" y="90.0" />
+              <point x="396.27272727272725" y="90.0" />
+              <point x="10.272727272727252" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.DB4Oinit" target="ie.gmit.sw.KShingle">
+              <point x="35.0" y="-15.0" />
+              <point x="195.0" y="180.0" />
+              <point x="274.69826141600345" y="180.0" />
+              <point x="-13.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.model.Document">
+              <point x="32.571428571428555" y="-15.0" />
+              <point x="525.9976085742215" y="260.0" />
+              <point x="555.0" y="260.0" />
+              <point x="555.0" y="70.0" />
+              <point x="416.81818181818187" y="70.0" />
+              <point x="30.81818181818187" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.dao.DocumentDao">
+              <point x="0.0" y="-15.0" />
+              <point x="493.426180002793" y="270.0" />
+              <point x="499.25" y="270.0" />
+              <point x="34.25" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.service.DocumentService">
+              <point x="48.85714285714289" y="-15.0" />
+              <point x="542.2833228599359" y="270.0" />
+              <point x="604.75" y="270.0" />
+              <point x="-39.25" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.DocumentService" target="ie.gmit.sw.model.Document">
+              <point x="0.0" y="-15.0" />
+              <point x="644.0" y="60.0" />
+              <point x="427.0909090909091" y="60.0" />
+              <point x="41.09090909090912" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.dao.impl" target="ie.gmit.sw.model.Document">
+              <point x="-28.5" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.DB4Oinit" target="ie.gmit.sw.model.Document">
+              <point x="0.0" y="-15.0" />
+              <point x="160.0" y="160.0" />
+              <point x="148.0" y="160.0" />
+              <point x="148.0" y="90.0" />
+              <point x="375.72727272727275" y="90.0" />
+              <point x="-10.272727272727252" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.MinHash" target="ie.gmit.sw.KShingle">
+              <point x="0.0" y="-15.0" />
+              <point x="284.5" y="180.0" />
+              <point x="300.69826141600345" y="180.0" />
+              <point x="13.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.Test" target="ie.gmit.sw.KShingle">
+              <point x="25.66666666666667" y="-15.0" />
+              <point x="74.66666666666669" y="170.0" />
+              <point x="248.69826141600345" y="170.0" />
+              <point x="-39.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.dao.impl" target="ie.gmit.sw.dao.DocumentDao">
+              <point x="28.5" y="-15.0" />
+              <point x="443.0" y="180.0" />
+              <point x="430.75" y="180.0" />
+              <point x="-34.25" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.MinHash">
+              <point x="-48.85714285714289" y="-15.0" />
+              <point x="444.5690371456501" y="270.0" />
+              <point x="284.5" y="270.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.service.DocumentService">
+              <point x="39.0" y="-15.0" />
+              <point x="360.82107945817626" y="350.0" />
+              <point x="683.25" y="350.0" />
+              <point x="39.25" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.DB4Oinit">
+              <point x="-13.0" y="-15.0" />
+              <point x="308.82107945817626" y="340.0" />
+              <point x="165.32107945817626" y="340.0" />
+              <point x="165.32107945817626" y="270.0" />
+              <point x="186.25" y="270.0" />
+              <point x="26.25" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.service.impl" target="ie.gmit.sw.KShingle">
+              <point x="-32.57142857142861" y="-15.0" />
+              <point x="460.8547514313644" y="260.0" />
+              <point x="347.0" y="260.0" />
+              <point x="347.0" y="180.0" />
+              <point x="326.69826141600345" y="180.0" />
+              <point x="39.0" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.model.Document">
+              <point x="-65.0" y="-15.0" />
+              <point x="256.82107945817626" y="360.0" />
+              <point x="0.0" y="360.0" />
+              <point x="0.0" y="50.0" />
+              <point x="334.6363636363636" y="50.0" />
+              <point x="-51.363636363636374" y="15.0" />
+            </edge>
+            <edge source="ie.gmit.sw.servlet.UploadFileServlet" target="ie.gmit.sw.service.impl">
+              <point x="13.0" y="-15.0" />
+              <point x="334.82107945817626" y="340.0" />
+              <point x="493.426180002793" y="340.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="61.5" y="47.5" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.dao.impl</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.dao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.dao</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">ie.gmit.sw.dao.DocumentDao</node>
+            <node x="11.5" y="80.0">ie.gmit.sw.dao.impl</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ie.gmit.sw.dao.impl" target="ie.gmit.sw.dao.DocumentDao">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-216.0" y="75.0" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.dao.impl</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.dao.impl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.dao.impl</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-204.0" y="49.5" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.dao.DocumentDao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.dao.DocumentDao</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">ie.gmit.sw.dao.DocumentDao</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-236.5" y="-142.5" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.dao.DocumentDao</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.dao.impl.DocumentDaoImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.dao.impl.DocumentDaoImpl</OriginalElement>
+          <nodes>
+            <node x="0.0" y="80.0">ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+            <node x="12.5" y="0.0">ie.gmit.sw.dao.DocumentDao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ie.gmit.sw.dao.impl.DocumentDaoImpl" target="ie.gmit.sw.dao.DocumentDao">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-224.0" y="-102.5" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.dao.impl.DocumentDaoImpl</node>
+            <node>ie.gmit.sw.dao.DocumentDao</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ie.gmit.sw.service.impl.DocumentServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ie.gmit.sw.service.impl.DocumentServiceImpl</OriginalElement>
+          <nodes>
+            <node x="12.5" y="0.0">ie.gmit.sw.service.DocumentService</node>
+            <node x="0.0" y="80.0">ie.gmit.sw.service.impl.DocumentServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ie.gmit.sw.service.impl.DocumentServiceImpl" target="ie.gmit.sw.service.DocumentService">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="132.5" />
+          <SelectedNodes>
+            <node>ie.gmit.sw.service.DocumentService</node>
+            <node>ie.gmit.sw.service.impl.DocumentServiceImpl</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
